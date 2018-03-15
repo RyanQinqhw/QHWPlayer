@@ -1,0 +1,666 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		289724B65B3E8EF286CDE58B /* libPods-QHWPlayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AA00D993DCABD278D038C0D1 /* libPods-QHWPlayer.a */; };
+		68221CD6205A1F2A00EE756C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 68221CD5205A1F2A00EE756C /* AppDelegate.m */; };
+		68221CD9205A1F2A00EE756C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68221CD8205A1F2A00EE756C /* ViewController.m */; };
+		68221CDC205A1F2A00EE756C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68221CDA205A1F2A00EE756C /* Main.storyboard */; };
+		68221CDE205A1F2A00EE756C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68221CDD205A1F2A00EE756C /* Assets.xcassets */; };
+		68221CE1205A1F2A00EE756C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68221CDF205A1F2A00EE756C /* LaunchScreen.storyboard */; };
+		68221CE4205A1F2A00EE756C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 68221CE3205A1F2A00EE756C /* main.m */; };
+		68221CEE205A1F2A00EE756C /* QHWPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 68221CED205A1F2A00EE756C /* QHWPlayerTests.m */; };
+		68221CF9205A1F2A00EE756C /* QHWPlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 68221CF8205A1F2A00EE756C /* QHWPlayerUITests.m */; };
+		68221D09205A493E00EE756C /* Q_PlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 68221D08205A493E00EE756C /* Q_PlayerView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		68221CEA205A1F2A00EE756C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68221CC9205A1F2A00EE756C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68221CD0205A1F2A00EE756C;
+			remoteInfo = QHWPlayer;
+		};
+		68221CF5205A1F2A00EE756C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68221CC9205A1F2A00EE756C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68221CD0205A1F2A00EE756C;
+			remoteInfo = QHWPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		68221CD1205A1F2A00EE756C /* QHWPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QHWPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		68221CD4205A1F2A00EE756C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		68221CD5205A1F2A00EE756C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		68221CD7205A1F2A00EE756C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		68221CD8205A1F2A00EE756C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		68221CDB205A1F2A00EE756C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		68221CDD205A1F2A00EE756C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		68221CE0205A1F2A00EE756C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		68221CE2205A1F2A00EE756C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68221CE3205A1F2A00EE756C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		68221CE9205A1F2A00EE756C /* QHWPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QHWPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		68221CED205A1F2A00EE756C /* QHWPlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QHWPlayerTests.m; sourceTree = "<group>"; };
+		68221CEF205A1F2A00EE756C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68221CF4205A1F2A00EE756C /* QHWPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QHWPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		68221CF8205A1F2A00EE756C /* QHWPlayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QHWPlayerUITests.m; sourceTree = "<group>"; };
+		68221CFA205A1F2A00EE756C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68221D07205A493E00EE756C /* Q_PlayerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Q_PlayerView.h; sourceTree = "<group>"; };
+		68221D08205A493E00EE756C /* Q_PlayerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Q_PlayerView.m; sourceTree = "<group>"; };
+		68221D0B205A4C6100EE756C /* Q_PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Q_PrefixHeader.pch; sourceTree = "<group>"; };
+		80233BA84829CE45EFD0C537 /* Pods-QHWPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QHWPlayer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QHWPlayer/Pods-QHWPlayer.debug.xcconfig"; sourceTree = "<group>"; };
+		AA00D993DCABD278D038C0D1 /* libPods-QHWPlayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QHWPlayer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB839977FBC7CAC1DC08DA13 /* Pods-QHWPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QHWPlayer.release.xcconfig"; path = "Pods/Target Support Files/Pods-QHWPlayer/Pods-QHWPlayer.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68221CCE205A1F2A00EE756C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				289724B65B3E8EF286CDE58B /* libPods-QHWPlayer.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68221CE6205A1F2A00EE756C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68221CF1205A1F2A00EE756C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68221CC8205A1F2A00EE756C = {
+			isa = PBXGroup;
+			children = (
+				68221CD3205A1F2A00EE756C /* QHWPlayer */,
+				68221CEC205A1F2A00EE756C /* QHWPlayerTests */,
+				68221CF7205A1F2A00EE756C /* QHWPlayerUITests */,
+				68221CD2205A1F2A00EE756C /* Products */,
+				A913010BFF45886A6933191A /* Pods */,
+				92CB66C5C47C9D7A7E9B4D90 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		68221CD2205A1F2A00EE756C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68221CD1205A1F2A00EE756C /* QHWPlayer.app */,
+				68221CE9205A1F2A00EE756C /* QHWPlayerTests.xctest */,
+				68221CF4205A1F2A00EE756C /* QHWPlayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68221CD3205A1F2A00EE756C /* QHWPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				68221D0A205A4C3A00EE756C /* Other */,
+				68221D06205A41B600EE756C /* CustomePlayer */,
+				68221CD7205A1F2A00EE756C /* ViewController.h */,
+				68221CD8205A1F2A00EE756C /* ViewController.m */,
+				68221CDA205A1F2A00EE756C /* Main.storyboard */,
+				68221CDD205A1F2A00EE756C /* Assets.xcassets */,
+				68221CDF205A1F2A00EE756C /* LaunchScreen.storyboard */,
+				68221CE2205A1F2A00EE756C /* Info.plist */,
+				68221CE3205A1F2A00EE756C /* main.m */,
+			);
+			path = QHWPlayer;
+			sourceTree = "<group>";
+		};
+		68221CEC205A1F2A00EE756C /* QHWPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				68221CED205A1F2A00EE756C /* QHWPlayerTests.m */,
+				68221CEF205A1F2A00EE756C /* Info.plist */,
+			);
+			path = QHWPlayerTests;
+			sourceTree = "<group>";
+		};
+		68221CF7205A1F2A00EE756C /* QHWPlayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				68221CF8205A1F2A00EE756C /* QHWPlayerUITests.m */,
+				68221CFA205A1F2A00EE756C /* Info.plist */,
+			);
+			path = QHWPlayerUITests;
+			sourceTree = "<group>";
+		};
+		68221D06205A41B600EE756C /* CustomePlayer */ = {
+			isa = PBXGroup;
+			children = (
+				68221D07205A493E00EE756C /* Q_PlayerView.h */,
+				68221D08205A493E00EE756C /* Q_PlayerView.m */,
+			);
+			path = CustomePlayer;
+			sourceTree = "<group>";
+		};
+		68221D0A205A4C3A00EE756C /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				68221CD4205A1F2A00EE756C /* AppDelegate.h */,
+				68221CD5205A1F2A00EE756C /* AppDelegate.m */,
+				68221D0B205A4C6100EE756C /* Q_PrefixHeader.pch */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		92CB66C5C47C9D7A7E9B4D90 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA00D993DCABD278D038C0D1 /* libPods-QHWPlayer.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A913010BFF45886A6933191A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				80233BA84829CE45EFD0C537 /* Pods-QHWPlayer.debug.xcconfig */,
+				BB839977FBC7CAC1DC08DA13 /* Pods-QHWPlayer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		68221CD0205A1F2A00EE756C /* QHWPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68221CFD205A1F2A00EE756C /* Build configuration list for PBXNativeTarget "QHWPlayer" */;
+			buildPhases = (
+				68B85D39B3054B2C0A403951 /* [CP] Check Pods Manifest.lock */,
+				68221CCD205A1F2A00EE756C /* Sources */,
+				68221CCE205A1F2A00EE756C /* Frameworks */,
+				68221CCF205A1F2A00EE756C /* Resources */,
+				15CFFF54239E243BC1815CFD /* [CP] Embed Pods Frameworks */,
+				42E39B8314BECF281F34CEEC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QHWPlayer;
+			productName = QHWPlayer;
+			productReference = 68221CD1205A1F2A00EE756C /* QHWPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		68221CE8205A1F2A00EE756C /* QHWPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68221D00205A1F2A00EE756C /* Build configuration list for PBXNativeTarget "QHWPlayerTests" */;
+			buildPhases = (
+				68221CE5205A1F2A00EE756C /* Sources */,
+				68221CE6205A1F2A00EE756C /* Frameworks */,
+				68221CE7205A1F2A00EE756C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68221CEB205A1F2A00EE756C /* PBXTargetDependency */,
+			);
+			name = QHWPlayerTests;
+			productName = QHWPlayerTests;
+			productReference = 68221CE9205A1F2A00EE756C /* QHWPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		68221CF3205A1F2A00EE756C /* QHWPlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68221D03205A1F2A00EE756C /* Build configuration list for PBXNativeTarget "QHWPlayerUITests" */;
+			buildPhases = (
+				68221CF0205A1F2A00EE756C /* Sources */,
+				68221CF1205A1F2A00EE756C /* Frameworks */,
+				68221CF2205A1F2A00EE756C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68221CF6205A1F2A00EE756C /* PBXTargetDependency */,
+			);
+			name = QHWPlayerUITests;
+			productName = QHWPlayerUITests;
+			productReference = 68221CF4205A1F2A00EE756C /* QHWPlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68221CC9205A1F2A00EE756C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Q_;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "明镜止水";
+				TargetAttributes = {
+					68221CD0205A1F2A00EE756C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					68221CE8205A1F2A00EE756C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 68221CD0205A1F2A00EE756C;
+					};
+					68221CF3205A1F2A00EE756C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 68221CD0205A1F2A00EE756C;
+					};
+				};
+			};
+			buildConfigurationList = 68221CCC205A1F2A00EE756C /* Build configuration list for PBXProject "QHWPlayer" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 68221CC8205A1F2A00EE756C;
+			productRefGroup = 68221CD2205A1F2A00EE756C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68221CD0205A1F2A00EE756C /* QHWPlayer */,
+				68221CE8205A1F2A00EE756C /* QHWPlayerTests */,
+				68221CF3205A1F2A00EE756C /* QHWPlayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		68221CCF205A1F2A00EE756C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68221CE1205A1F2A00EE756C /* LaunchScreen.storyboard in Resources */,
+				68221CDE205A1F2A00EE756C /* Assets.xcassets in Resources */,
+				68221CDC205A1F2A00EE756C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68221CE7205A1F2A00EE756C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68221CF2205A1F2A00EE756C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		15CFFF54239E243BC1815CFD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QHWPlayer/Pods-QHWPlayer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		42E39B8314BECF281F34CEEC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QHWPlayer/Pods-QHWPlayer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68B85D39B3054B2C0A403951 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QHWPlayer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68221CCD205A1F2A00EE756C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68221CD9205A1F2A00EE756C /* ViewController.m in Sources */,
+				68221D09205A493E00EE756C /* Q_PlayerView.m in Sources */,
+				68221CE4205A1F2A00EE756C /* main.m in Sources */,
+				68221CD6205A1F2A00EE756C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68221CE5205A1F2A00EE756C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68221CEE205A1F2A00EE756C /* QHWPlayerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68221CF0205A1F2A00EE756C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68221CF9205A1F2A00EE756C /* QHWPlayerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		68221CEB205A1F2A00EE756C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68221CD0205A1F2A00EE756C /* QHWPlayer */;
+			targetProxy = 68221CEA205A1F2A00EE756C /* PBXContainerItemProxy */;
+		};
+		68221CF6205A1F2A00EE756C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68221CD0205A1F2A00EE756C /* QHWPlayer */;
+			targetProxy = 68221CF5205A1F2A00EE756C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		68221CDA205A1F2A00EE756C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68221CDB205A1F2A00EE756C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		68221CDF205A1F2A00EE756C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68221CE0205A1F2A00EE756C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		68221CFB205A1F2A00EE756C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		68221CFC205A1F2A00EE756C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		68221CFE205A1F2A00EE756C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80233BA84829CE45EFD0C537 /* Pods-QHWPlayer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NJF48LS7M5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/QHWPlayer/Other/Q_PrefixHeader.pch";
+				INFOPLIST_FILE = QHWPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.player.mjzs.QHWPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		68221CFF205A1F2A00EE756C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB839977FBC7CAC1DC08DA13 /* Pods-QHWPlayer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NJF48LS7M5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/QHWPlayer/Other/Q_PrefixHeader.pch";
+				INFOPLIST_FILE = QHWPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.player.mjzs.QHWPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		68221D01205A1F2A00EE756C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NJF48LS7M5;
+				INFOPLIST_FILE = QHWPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.player.mjzs.QHWPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QHWPlayer.app/QHWPlayer";
+			};
+			name = Debug;
+		};
+		68221D02205A1F2A00EE756C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NJF48LS7M5;
+				INFOPLIST_FILE = QHWPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.player.mjzs.QHWPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QHWPlayer.app/QHWPlayer";
+			};
+			name = Release;
+		};
+		68221D04205A1F2A00EE756C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NJF48LS7M5;
+				INFOPLIST_FILE = QHWPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.player.mjzs.QHWPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QHWPlayer;
+			};
+			name = Debug;
+		};
+		68221D05205A1F2A00EE756C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NJF48LS7M5;
+				INFOPLIST_FILE = QHWPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.player.mjzs.QHWPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QHWPlayer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68221CCC205A1F2A00EE756C /* Build configuration list for PBXProject "QHWPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68221CFB205A1F2A00EE756C /* Debug */,
+				68221CFC205A1F2A00EE756C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68221CFD205A1F2A00EE756C /* Build configuration list for PBXNativeTarget "QHWPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68221CFE205A1F2A00EE756C /* Debug */,
+				68221CFF205A1F2A00EE756C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68221D00205A1F2A00EE756C /* Build configuration list for PBXNativeTarget "QHWPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68221D01205A1F2A00EE756C /* Debug */,
+				68221D02205A1F2A00EE756C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68221D03205A1F2A00EE756C /* Build configuration list for PBXNativeTarget "QHWPlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68221D04205A1F2A00EE756C /* Debug */,
+				68221D05205A1F2A00EE756C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 68221CC9205A1F2A00EE756C /* Project object */;
+}

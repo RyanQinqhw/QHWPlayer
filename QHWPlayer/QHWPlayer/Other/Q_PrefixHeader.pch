@@ -1,0 +1,24 @@
+//
+//  Q_PrefixHeader.pch
+//  QHWPlayer
+//
+//  Created by 秦宏伟 on 2018/3/15.
+//  Copyright © 2018年 明镜止水. All rights reserved.
+//
+
+#ifdef DEBUG
+
+#define NSSLog(FORMAT, ...) fprintf(stderr,"%s:%d\t%s\n",[[[NSString stringWithUTF8String:__FILE__] lastPathComponent] UTF8String], __LINE__, [[NSString stringWithFormat:FORMAT, ##__VA_ARGS__] UTF8String]);
+
+#else
+
+#define NSSLog(...)
+
+#endif
+
+#ifdef __OBJC__
+#import "Masonry.h"
+#endif
+
+
+
