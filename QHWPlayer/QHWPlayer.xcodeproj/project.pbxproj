@@ -17,6 +17,7 @@
 		68221CEE205A1F2A00EE756C /* QHWPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 68221CED205A1F2A00EE756C /* QHWPlayerTests.m */; };
 		68221CF9205A1F2A00EE756C /* QHWPlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 68221CF8205A1F2A00EE756C /* QHWPlayerUITests.m */; };
 		68221D09205A493E00EE756C /* Q_PlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 68221D08205A493E00EE756C /* Q_PlayerView.m */; };
+		68221D0F205A93EE00EE756C /* Q_PlayerContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 68221D0E205A93EE00EE756C /* Q_PlayerContentView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		68221D07205A493E00EE756C /* Q_PlayerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Q_PlayerView.h; sourceTree = "<group>"; };
 		68221D08205A493E00EE756C /* Q_PlayerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Q_PlayerView.m; sourceTree = "<group>"; };
 		68221D0B205A4C6100EE756C /* Q_PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Q_PrefixHeader.pch; sourceTree = "<group>"; };
+		68221D0D205A93EE00EE756C /* Q_PlayerContentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Q_PlayerContentView.h; sourceTree = "<group>"; };
+		68221D0E205A93EE00EE756C /* Q_PlayerContentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Q_PlayerContentView.m; sourceTree = "<group>"; };
 		80233BA84829CE45EFD0C537 /* Pods-QHWPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QHWPlayer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QHWPlayer/Pods-QHWPlayer.debug.xcconfig"; sourceTree = "<group>"; };
 		AA00D993DCABD278D038C0D1 /* libPods-QHWPlayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QHWPlayer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB839977FBC7CAC1DC08DA13 /* Pods-QHWPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QHWPlayer.release.xcconfig"; path = "Pods/Target Support Files/Pods-QHWPlayer/Pods-QHWPlayer.release.xcconfig"; sourceTree = "<group>"; };
@@ -148,6 +151,8 @@
 			children = (
 				68221D07205A493E00EE756C /* Q_PlayerView.h */,
 				68221D08205A493E00EE756C /* Q_PlayerView.m */,
+				68221D0D205A93EE00EE756C /* Q_PlayerContentView.h */,
+				68221D0E205A93EE00EE756C /* Q_PlayerContentView.m */,
 			);
 			path = CustomePlayer;
 			sourceTree = "<group>";
@@ -370,6 +375,7 @@
 				68221CD9205A1F2A00EE756C /* ViewController.m in Sources */,
 				68221D09205A493E00EE756C /* Q_PlayerView.m in Sources */,
 				68221CE4205A1F2A00EE756C /* main.m in Sources */,
+				68221D0F205A93EE00EE756C /* Q_PlayerContentView.m in Sources */,
 				68221CD6205A1F2A00EE756C /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -539,6 +545,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/QHWPlayer/Other/Q_PrefixHeader.pch";
 				INFOPLIST_FILE = QHWPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.player.mjzs.QHWPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -556,6 +563,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/QHWPlayer/Other/Q_PrefixHeader.pch";
 				INFOPLIST_FILE = QHWPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.player.mjzs.QHWPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
