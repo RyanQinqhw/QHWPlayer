@@ -22,6 +22,9 @@
     //内容view
     @property (nonatomic, strong) Q_PlayerContentView *contentView;
     
+    //单机手势
+    @property (nonatomic, strong) UITapGestureRecognizer *singleTap;
+    
 @end
 
 @implementation Q_PlayerView
@@ -30,6 +33,7 @@
     if(self = [super init]){
         [self initPlayer];
         [self initPlayerContentView];
+        [self createGesture];
     }
     return self;
 }
@@ -37,7 +41,7 @@
 -(void)initPlayer{
     
 //    NSURL *url = [NSURL URLWithString:@"http://cctv.cntv.dnion.com/cache/208_/seg0/index.m3u8?AUTH=cntv0002eioemwtj7gwZ8E/4A74SDHdpLlMcMi9X+PeRplbpDaNRWRwOKVJZIUMtTaYy1S2d/vq+uKxSwGq63i0LLDXlpx3mGgLHGA=="];
-    NSURL *url = [NSURL URLWithString:@"http://120.25.226.186:32812/resources/videos/minion_03.mp4"];
+    NSURL *url = [NSURL URLWithString:@"http://120.25.226.186:32812/resources/videos/minion_04.mp4"];
     AVURLAsset *asset = [AVURLAsset assetWithURL:url];
     self.playerItem = [AVPlayerItem playerItemWithAsset:asset];
     self.player = [AVPlayer playerWithPlayerItem:self.playerItem];
@@ -53,6 +57,13 @@
     [self.contentView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.edges.equalTo(self);
     }];
+}
+    
+-(void)createGesture{
+    self.singleTap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(doSingleTapAction:)];
+    self.singleTap.numberOfTapsRequired = 1;
+    self.singleTap.numberOfTouchesRequired = 1;
+    [self addGestureRecognizer:self.singleTap];
 }
     
 -(void)addObserverForPlayerItem{
@@ -125,6 +136,12 @@
     [self addObserverForPlayerItem];
 }
 
+-(void)doSingleTapAction:(UIGestureRecognizer *)recongizer{
+    NSSLog(@"单击触摸播放器");
+}
+    
+    
+    
 -(void)dealloc{
     NSSLog(@"销毁view");
     //移除kvo 和 通知

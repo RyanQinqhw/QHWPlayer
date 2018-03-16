@@ -18,6 +18,7 @@
 		68221CF9205A1F2A00EE756C /* QHWPlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 68221CF8205A1F2A00EE756C /* QHWPlayerUITests.m */; };
 		68221D09205A493E00EE756C /* Q_PlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 68221D08205A493E00EE756C /* Q_PlayerView.m */; };
 		68221D0F205A93EE00EE756C /* Q_PlayerContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 68221D0E205A93EE00EE756C /* Q_PlayerContentView.m */; };
+		68221D12205B71E100EE756C /* Q_PlayerBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 68221D11205B71E100EE756C /* Q_PlayerBundle.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,8 @@
 		68221D0B205A4C6100EE756C /* Q_PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Q_PrefixHeader.pch; sourceTree = "<group>"; };
 		68221D0D205A93EE00EE756C /* Q_PlayerContentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Q_PlayerContentView.h; sourceTree = "<group>"; };
 		68221D0E205A93EE00EE756C /* Q_PlayerContentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Q_PlayerContentView.m; sourceTree = "<group>"; };
+		68221D10205B6BE700EE756C /* Q_PlayerConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Q_PlayerConfig.h; sourceTree = "<group>"; };
+		68221D11205B71E100EE756C /* Q_PlayerBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Q_PlayerBundle.bundle; sourceTree = "<group>"; };
 		80233BA84829CE45EFD0C537 /* Pods-QHWPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QHWPlayer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QHWPlayer/Pods-QHWPlayer.debug.xcconfig"; sourceTree = "<group>"; };
 		AA00D993DCABD278D038C0D1 /* libPods-QHWPlayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QHWPlayer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB839977FBC7CAC1DC08DA13 /* Pods-QHWPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QHWPlayer.release.xcconfig"; path = "Pods/Target Support Files/Pods-QHWPlayer/Pods-QHWPlayer.release.xcconfig"; sourceTree = "<group>"; };
@@ -153,6 +156,8 @@
 				68221D08205A493E00EE756C /* Q_PlayerView.m */,
 				68221D0D205A93EE00EE756C /* Q_PlayerContentView.h */,
 				68221D0E205A93EE00EE756C /* Q_PlayerContentView.m */,
+				68221D10205B6BE700EE756C /* Q_PlayerConfig.h */,
+				68221D11205B71E100EE756C /* Q_PlayerBundle.bundle */,
 			);
 			path = CustomePlayer;
 			sourceTree = "<group>";
@@ -294,6 +299,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68221D12205B71E100EE756C /* Q_PlayerBundle.bundle in Resources */,
 				68221CE1205A1F2A00EE756C /* LaunchScreen.storyboard in Resources */,
 				68221CDE205A1F2A00EE756C /* Assets.xcassets in Resources */,
 				68221CDC205A1F2A00EE756C /* Main.storyboard in Resources */,

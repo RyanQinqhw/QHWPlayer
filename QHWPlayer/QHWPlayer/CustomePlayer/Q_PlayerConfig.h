@@ -6,8 +6,13 @@
 //  Copyright © 2018年 明镜止水. All rights reserved.
 //
 
-#ifndef Q_PlayerConfig_h
-#define Q_PlayerConfig_h
+#import <UIKit/UIKit.h>
 
+typedef enum :NSUInteger {
+    GradientDirectionTop = 0,  //渐变色从上到下
+    GradientDirectionBottom ,   //渐变从下到上
+}GradientDirection;
 
-#endif /* Q_PlayerConfig_h */
+#define Q_PlayerBundleName @"Q_PlayerBundle.bundle"
+#define Q_PlayerBundleImagePath(imageName) [Q_PlayerBundleName stringByAppendingPathComponent:imageName]
+#define Q_PlayerBundleImage(imageName) [UIImage imageNamed:Q_PlayerBundleImagePath(imageName)]
